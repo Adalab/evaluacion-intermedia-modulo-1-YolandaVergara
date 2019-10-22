@@ -1,0 +1,72 @@
+body {
+    border: 0;
+    font-family: font-family: 'Rubik', sans-serif;
+}
+
+.header_adalab {
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: font-family: 'Rubik', sans-serif;
+
+}
+
+.menu_adalab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    list-style: none;
+    color: #4a4a4a;
+    font-size: 16px font
+}
+
+.main_adalab {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CDBC0;
+    color: #FFFFFF;
+
+    font-size: 30px;
+    padding: 0 150px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.logo_adalab {
+    width: 155px;
+
+
+}
+
+.item {
+    margin-right: 15px;
+}
+
+@media all and (min-width: 768px) {
+    .header_adalab {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu_adalab {
+        font-size: 16px;
+        padding: 0 400px;
+    }
+
+    .menu_adalab {
+        font-size: 40px;
+    }
+}
